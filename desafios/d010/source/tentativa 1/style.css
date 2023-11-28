@@ -1,0 +1,95 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #84E0AD;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #2DA865;
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    position: relative;
+}
+
+header > h1 {
+    top: 4%;
+    position: absolute;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.603);
+
+}
+
+header > p {
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.603);
+    top: 40%;
+    position: absolute;
+}
+
+header > nav  {
+    top: 90%;
+    position: absolute;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+main {
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.text {
+    margin: 15px;
+    margin-top: 20px;
+}
+
+main > div.text > h2 {
+    font-family: idroid;
+    color: #165237;
+    font-size: 40px;
+}
+
+main > div.text > h3 {
+    font-family: idroid;
+    background-color: #84E0AD;
+    color: #165237;
+    font-size: 30px;
+}
+
+main > div.text > p {
+    
+    font-size: 20px;
+}
+
+#video {
+    background-color: #165237;
+}
+
+footer {
+   background-color: #165237; 
+   padding: 12px;
+   color: white;
+   text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+

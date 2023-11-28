@@ -1,0 +1,13 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue; text-align: center; 
+}
+
+a:hover{
+    background-color: yellow;
+}
