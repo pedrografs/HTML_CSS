@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+    background-color: black;
+    height: 200px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: var(--fonte2);
+    color: white;
+    font-size: 10vh;
+    padding: 15px;
+}
+
+h2 {
+    font-family: var(--fonte1);
+    font-size: 1em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.normal {
+    background-color: white;
+}
+
+p {
+    padding: 20px;
+    font-family: var(--fonte3);
+}
+
+#flor {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.imagem {
+    color: white;
+    background-color: black;
+}
