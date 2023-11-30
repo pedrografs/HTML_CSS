@@ -11,6 +11,10 @@
     margin: 0px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
     color: white;
@@ -42,8 +46,8 @@ main {
 }
 
 section {
-    padding: 10vh 5vh;
-    font-size: 3vw;
+    padding: 10vh 30px;
+    font-size: 3.5vw;
 }
 
 .black {
