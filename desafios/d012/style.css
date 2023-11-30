@@ -61,6 +61,7 @@ section {
     background-position:  center right;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.324);
 }
 
 #img01 {
