@@ -5,34 +5,33 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+/*  devia ter colocados dentro de paragrafos na sections */
 
 * {
     padding: 0px;
     margin: 0px;
 }
 
-body {
+html, body {
     min-height: 100vh;
 }
 
 header {
     background-color: black;
     color: white;
-    height: 25vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 header h1 {
     font-family: var(--fonte2);
     font-size: 10vw;
+    padding-top: 50px;
 }
 
 header p {
     font-family: var(--fonte1);
     font-size: 1em;
+    padding-bottom: 50px;
 }
 
 a {
@@ -55,6 +54,7 @@ section {
     color: white;
     width: 50vw;
 }
+/* não precisava ter feito a classe black, era só ter colocado as estrofes em paragrafos e editar section > p */
 
 .imagem {
     background-position:  center right;
