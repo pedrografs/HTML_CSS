@@ -5,7 +5,7 @@
 @media print {
  /* IMPRESSORA */
     body {
-        background-image: url(../imagens/back-print.jpg) 
+         background-image: url(../imagens/back-print.jpg) /*não funciona */
     }
 
 
